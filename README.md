@@ -5,4 +5,4 @@ The program has been been written in python and it uses [FastAPI](https://github
 
 The program is hosted at [turdify.niekdeschipper.com](https://turdify.niekdeschipper.com) and has been written for educational purposes.
 
-<img src="images/faceturd.png"  width="200"> 
+<img src="./welcomepage/images/faceturd.png"  width="200"> 
