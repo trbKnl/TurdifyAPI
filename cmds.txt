@@ -1,0 +1,11 @@
+# Use a virtual environment
+# start it with
+source ./my_env/bin/activate
+
+# Store the requirements of your app in a text file
+# To later install
+pip3 freeze >> requirements.txt
+
+# A very nice and simple html/css skeleton
+# clone it into a folder and serve it statically 
+git clone https://github.com/dhg/Skeleton

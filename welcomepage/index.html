@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Turdface API welcome page</title>
+  <meta name="Welcome page that documents the API" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/siteicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="ten column" style="margin-top: 5%">
+        <h4>Anonymize your pictures with turdify-api</h4>
+        <p>Do you want to share your photo's on the gram, but you are afraid people will identify you?! Fear no more. I present to you <strong>turdify-api</strong> you can anonymize your photos, using state of the A.R.T machine learning and A.I. Now you can participate on the world wide web without having to be afraid.</p>
+      </div>
+
+      <div class="ten column" style="margin-top: 5%">
+         <img src="images/face.jpg" alt="kjaskdjad" width="200"> 
+         <img src="images/faceturd.png" alt="kjaskdjad" width="200"> 
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-------------------- -->
+
+  <hr>
+
+  <div class="container">
+    <div class="row">
+      <div class="ten column" style="margin-top: 5%">
+        <h4>Try it out for yourself!</h4>
+
+        <form action="/turdify/" method="post" enctype="multipart/form-data">
+            <input class="button-primary" type="file" name="my_file"> 
+            <input type="submit" value="submit file">
+        </form>
+
+  </div>
+  </div>
+  </div>
+
+  <!-------------------- -->
+
+  <hr>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="ten column" style="margin-top: 0%">
+          <h4>Usage with <code>curl</code></h4>
+        <p>This line shows you how you would POST your image to the API using <code>curl</code> and to save the result.</p>
+        <pre><code>curl -v -F 'my_file=@/path/to/image/with/face.png' https://turdify.niekdeschipper.com/turdify/ > facewithturd.png </code></pre>
+      </div>
+
+      <div class="ten column" style="margin-top: 0%">
+         <img src="images/group.jpg" alt="kjaskdjad" width="400"> 
+         <img src="images/groupturd.png" alt="kjaskdjad" width="400"> 
+      </div>
+
+      <div class="ten column" style="margin-top: 1%">
+        <h4>Links</h4>
+        <ul>
+          <li>The first picture is from <a href="https://thispersondoesnotexist.com">thispersondoesnotexist.com</a>.</li>
+          <li>The group picture is from <a href="https://unsplash.com/photos/T6zu4jFhVwg">Unsplash</a>.</li>
+          <li>This website has been made with <a href="https://github.com/dhg/Skeleton">Skeleton</a>.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
